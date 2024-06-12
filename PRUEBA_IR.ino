@@ -1,3 +1,25 @@
+/*
+ * Programa: Control de Robot SUMO con Arduino
+ * Descripción: Este programa implementa el control de un robot sumo utilizando un Arduino Uno. 
+ *              El robot utiliza sensores infrarrojos y ultrasónicos para detectar oponentes y evitar colisiones.
+ *              Además, se han implementado registros y temporizadores para lograr un inicio suave y seguro del robot sumo.
+ *
+ * Autor: [Angel Vallejo]
+ * Fecha: [Fecha de hoy]
+ * Versión: [Versión del programa]
+ *
+ * Historial de Versiones:
+ * - [Versión 1.0]: [Fecha de la versión 1.0] Versión inicial.
+ * - [Versión 1.1]: [Fecha de la versión 1.1] 
+ *
+ * Referencias:
+ * - [Documentación de Arduino](https://www.arduino.cc/reference/en/)
+ * - [Hoja de datos del ATmega328P](http://ww1.microchip.com/downloads/en/DeviceDoc/40002061A.pdf)
+ *
+ * Notas:
+ * - Este código está diseñado para ser ejecutado en un Arduino Uno.
+ * - Asegúrese de que los componentes de hardware están conectados correctamente.
+ */
 volatile bool shouldRunPWM = false; // Variable para controlar la ejecución del PWM
 
 // Definir constantes para la configuración de temporizadores
