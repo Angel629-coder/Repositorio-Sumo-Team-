@@ -28,7 +28,7 @@
  */
  
 
-Programa de Robot Sumo 
+//Programa de Robot Sumo 
 volatile bool alpha = true;
 volatile bool lambda = true;
 volatile unsigned int timerCounter = 0;
